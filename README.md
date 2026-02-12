@@ -54,4 +54,32 @@ We:
 ---
 
 ## 📂 Repository Structure
+trader-sentiment-project/
+├── Data_intern_project.ipynb # Main analysis notebook
+├── app.py # Streamlit dashboard
+├── clean_daily_metrics.csv # Processed dataset used by the dashboard
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
 
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository:
+  ```
+  git clone https://github.com/your-username/trader-sentiment-project.git
+  cd trader-sentiment-project
+  ```
+2. Install dependencies:
+  ```
+pip install -r requirements.txt
+  ```
+3. Run the Jupyter notebook:
+   ``` jupyter notebook Data_intern_project.ipynb ```
+
+4. Run the Streamlit dashboard:
+   ``` streamlit run app.py ```
+
+
+Created  By Samruddhi Amol Shah
